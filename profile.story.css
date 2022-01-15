@@ -1,0 +1,61 @@
+
+.header-logo {
+    text-align: center;
+    background-color: brown;
+    width: 100%;
+}
+
+.header-logo img {
+    width: 750px;
+    height: 250px;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    align-items: center;
+
+}
+
+.header-rist {
+    text-align: center;
+    background-color: cadetblue;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-rist ul {
+    left:25;
+    display: flex;
+    animation: loop-slide 20s infinite linear both;
+    transform:translateX(0);
+}
+
+.header-rist li {
+    display: inline;
+    font-size: 30px;
+    margin-right: 25px;
+}
+@keyframes loop-slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+.header-rist:hover .header-contents {
+    animation-play-state: paused;
+  }
+
+.header-contents a {
+    text-decoration: none;
+    transition: 0.1s;
+}
+.header-contents li:hover{
+    transform: scale(1.3);
+    }
