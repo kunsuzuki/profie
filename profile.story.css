@@ -59,3 +59,43 @@ li {
 .header-contents li:hover{
     transform: scale(1.3);
     }
+
+.youtube {
+    margin: 0 auto;
+    width: 640px;
+}
+
+.main {
+    display: flex;
+    overflow: hidden;
+}
+.main-contents1 {
+    background-color: darkcyan;
+}
+.main-contents2 {
+    background-color: darkgreen;
+}
+
+.main-plays {
+    display: flex;
+    overflow: hidden;
+}
+.main-plays1 {
+    background-color: darkgrey;
+
+}
+.main-plays2 {
+    background-color: darkorange;
+
+}
+.main-plays3 {
+    background-color: goldenrod;
+
+}
+
+.footer {
+    display: flex;
+}
+.footer-info ul {
+    float: right;
+}
